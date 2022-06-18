@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+}
+/* saidbar start */
+.container .saidbar{
+    width: 20%;
+    min-height: 100vh;
+    background-color: #2D3E4F;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 100px;
+}
+.saidbar ul{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+.container .saidbar li{
+    list-style: none;
+    line-height: 60px;
+}
+.container h1{
+    color: #fff;
+}
+.container .saidbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.container .saidbar a:hover{
+    color:  rgb(236, 112, 11);
+}
+.must{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    margin-top: 2020px;
+    
+}
+/* saidbar end */
+.container .section{
+    width: 80%;
+}
+.container .section .home{
+ width: 100%;
+ height: 100vh;
+ background: url('./pictures/IMAGE.png');
+ background-repeat: no-repeat;   
+ background-position: center;
+ background-size: cover;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+
+}
+.container .section .home h1{
+    font-size: 50px;
+    
+}
+.button-text button{
+    padding: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+.button-text .button2{
+    background-color: red;
+}
+
+
+
+.section .card-head .card-info{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.card-head .card-info h1{
+    font-size: 50px;
+    color: black;
+}
+/* cards start */
+.cards{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 20px;
+}
+.card{
+    background-color: white;
+    text-align: center;
+    line-height: 20px;
+}
+
+.card img{
+    height: 80px;
+}
+.cards{
+    margin-top: 40px;
+}
+.card a{
+    text-decoration: none;
+    color: red;
+}
+/* cards end */
+/* body1 start */
+.body1{
+    width: 100%;
+    height:100px;
+    background-color: #CF404D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.body1 button{
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px;
+    color: #fff;
+}
+/* body1 end */
+/* gallery start */
+.gallery{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+
+}
+.gallery-info{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    margin-top: 20px;
+   
+    
+}
+.pictures{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 20px;
+   
+
+}
+
+/* gallery end */
+/* contact start */
+.contact{
+    width: 100%;
+    height: 400px;
+    background-color: #FAFAFA;
+}
+.contact-info{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    background-color: #FAFAFA;
+}
+.contact-info h1{
+    color: black;
+}
+.input1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+   
+    
+}
+.input1 input{
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+   
+}
+
+.input2{
+    width: 100%;
+    height: 200px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input2 textarea{
+    min-height: 120px;
+    min-width: 523px;
+}
+.input2 button{
+    width: 525px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #CF404D;
+    color: white;
+}
+/* contact end */
+.coder{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
